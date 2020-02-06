@@ -2,6 +2,7 @@ body {
   margin: 0px;
   text-align: center;
   font-family: 'Merriweather', serif;
+  color: #40514E;
 }
 
 h1 {
@@ -23,6 +24,36 @@ h3 {
   color: #11999E;
 }
 
+hr {
+  border: dotted grey 6PX;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  padding: 0 10px 0 10px;
+}
+
+a:hover{
+  color: #EAF6f6;
+}
+
+p {
+  line-height: 2;
+}
+
+.mountain {}
+
+.intro {
+  color: #40514E;
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
 .my-pic {
   border-right: 25%;
   height: 100px;
@@ -30,35 +61,80 @@ h3 {
 
 .eng-image {
   border-radius: 50%;
+  width: 30%;
+  float: left;
+  margin-right: 30px;
 }
 
 .code-img {
   border-radius: 50%;
+  width: 30%;
+  float: right;
+  margin-right: 30px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .topContainer {
-  background-color: #e4f9f5;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
-
 }
 
-.middleContainer {}
+.middle-container {
+  margin: 100px 0;
+}
 
-.bottomContainer {}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
 
-a{
-  color: #11999E;
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.sign-off {
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 8px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b6178;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
 }
